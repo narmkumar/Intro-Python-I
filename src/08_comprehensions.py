@@ -12,12 +12,18 @@ for more info regarding list comprehensions.
 
 y = []
 
+for n in range(1,6):
+    y.append(n)
+
 print (y)
 
 # Write a list comprehension to produce the cubes of the numbers 0-9:
 # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
 
 y = []
+
+for n in range(0,10):
+    y.append(n ** 3)
 
 print(y)
 
