@@ -38,6 +38,7 @@ print(s[7:12])
 
 x = 5
 y = 5
+
 def rep_cat(x, y):
      x *= 10
      y *= 5
