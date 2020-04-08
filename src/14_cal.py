@@ -51,5 +51,9 @@ if month < 1 or month > 12:
     print("Month doesn't exist! Must be 1-12!")
     exit()
 
+if year > 3000:
+    print("Keep it within our lifetime ;)")
+    exit()
+
 calendar = calendar.TextCalendar()
 calendar.prmonth(year, month)
